@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+      <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="section-header">
+                        <h2>Contacts</h2>
+                        <p>Laisse ton message</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 contacts">
+
+                    <div class="contacts-address">
+                        <div class="contacts-icon">
+                            <span class="fa fa-map-marker fa-4x" aria-hidden="true"></span>
+                        </div>
+                        <div class="contacts-text">
+                            <h3>Adresse:</h3>
+                            <p class="phone-number">Fosse, France</p>
+                        </div>
+                    </div>
+
+                    <div class="contacts-phone">
+                        <div class="contacts-icon">
+                            <span class="fa fa-mobile fa-4x" aria-hidden="true"></span>
+                        </div>
+                        <div class="contacts-text">
+                            <h3>Téléphone:</h3>
+                            <p><span class="phone-number">+33......</span></p>
+                        </div>
+                    </div>
+
+                    <div class="contacts-site">
+                        <div class="contacts-icon">
+                            <span class="fa fa-home fa-4x" aria-hidden="true"></span>
+                        </div>
+
+                    </div>
+
+                </div><!-- /.contacts -->
+
+                <div class="col-sm-6 contact-form">
+                    <form action="ngoualaketsia@gmail.com" method="POST" target="_blank">
+
+                        <p><label for="form-name">Name:</label></p>
+                        <input type="text" id="form-name" placeholder="Ton nom" name="Name" required>
+
+                        <p><label for="form-email">E-mail:</label></p>
+                        <input type="email" id="form-email" placeholder="Ton email" name="Email" required>
+
+                        <p><label for="form-message">Message:</label></p>
+                        <textarea name="message-field" id="form-message" cols="30" rows="4" placeholder="Votre message" required></textarea>
+
+                        <div class="form-button">
+                            <button type="submit">envoyer</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+</body>
+</html>
